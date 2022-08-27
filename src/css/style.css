@@ -1,0 +1,1006 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+@media (min-width: 280px) and (max-width: 601px) {
+  body {
+    font-family: "Poppins";
+    width: 100%;
+  }
+  .titulo {
+    box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.25);
+  }
+  h1 {
+    padding: 20px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .cont {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+  .filtersContainer {
+    display: flex;
+    overflow: scroll;
+    overflow-y: hidden;
+    padding-bottom: 15px;
+    width: 95%;
+  }
+  .filtersContainer button {
+    margin-right: 12px;
+  }
+  .estiloGeralBotoes {
+    font-weight: 500;
+    border-radius: 8px;
+    padding: 4px 26px;
+    font-size: 14px;
+    background-color: rgba(18, 184, 134, 0.05);
+    color: rgba(18, 184, 134, 1);
+    border: 1.5px solid rgba(18, 184, 134, 0.05);
+    font-family: "Poppins";
+    transition: 0.3s;
+  }
+  .estiloGeralBotoes:hover {
+    background-color: rgba(18, 184, 134, 1);
+    color: #ffffff;
+  }
+  .containerBuscaPorNome {
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    margin-top: 15px;
+  }
+  .campoBuscaPorNome {
+    margin-right: 9px;
+    border-radius: 8px;
+    padding: 14px 30px 14px 20px;
+    border: none;
+    background-color: rgb(241, 243, 245);
+    color: rgba(81, 82, 82, 1);
+    font-size: 16px;
+  }
+  .estiloGeralBotoes--botaoBuscaPorNome {
+    display: flex;
+    padding: 14px;
+    background-color: rgba(18, 184, 134, 1);
+    color: white;
+    border-radius: 8px;
+  }
+
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .containerListaProdutos {
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .vitrine {
+    display: flex;
+    overflow: scroll;
+  }
+  .cardProduto {
+    border-radius: 5px;
+    margin-right: 17px;
+    margin-bottom: 11px;
+  }
+  .cardImg {
+    width: 274px;
+    height: 175px;
+  }
+  .cardTitulo {
+    color: #212529;
+    font-weight: 500;
+    margin: 16px 0;
+    font-size: 16px;
+  }
+  .cardCategoria {
+    font-size: 12px;
+    color: #868e96;
+    font-weight: 500;
+  }
+  .cardLista {
+    margin: 16px 13px;
+    font-size: 12px;
+    color: #868e96;
+    font-weight: 500;
+    list-style: decimal;
+    height: 65px;
+  }
+  .cardLi {
+    padding: 2px;
+  }
+  .divBotao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .divBotao p {
+    color: #212529;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  .botaoComprar {
+    color: #12b886;
+    background-color: rgba(18, 184, 134, 0.05);
+    padding: 8px;
+    border-radius: 8px;
+    border: 1.5px solid rgba(18, 184, 134, 0.05);
+    cursor: pointer;
+  }
+
+  aside {
+    margin: auto;
+  }
+  .menuLateral {
+    display: flex;
+    flex-direction: column;
+    width: 290px;
+    height: 260px;
+    margin-top: 10px;
+  }
+  .carrinhoTitulo {
+    display: flex;
+    background-color: #12b886;
+    color: #ffffff;
+    border-radius: 12px 12px 0 0;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+  }
+  .imgCarrinho {
+    padding: 20px;
+  }
+  .carrinhoTitulo p {
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .containerC {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+    flex-direction: column;
+    overflow: scroll;
+    overflow-x: hidden;
+  }
+  .produtoCarrinho {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .divProduto {
+    display: flex;
+  }
+  .imgProduto {
+    width: 70px;
+    height: 70px;
+    border-radius: 8px;
+  }
+  .infoCarrinho {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 12px;
+  }
+  .tituloCarrinho {
+    color: #212529;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  .categoriaCarrinho {
+    color: #868e96;
+    font-weight: 400;
+    font-size: 12px;
+  }
+  .pValor {
+    color: #212529;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  .botaoRemover {
+    height: 20px;
+    background-color: #ffffff;
+    border: none;
+    cursor: pointer;
+  }
+  .iconeBotao {
+    width: 12px;
+    height: 15px;
+  }
+
+  .containerQuantidade {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 59px;
+    background-color: #f8f9fa;
+  }
+  .divQuantidade,
+  .divTotal {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+  }
+  .containerPrecoTotal {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 59px;
+  }
+  .quantidade,
+  #quantidadeTotal,
+  .totalSoma,
+  #precoTotal {
+    font-size: 14px;
+    font-weight: 400;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 971px) {
+  body {
+    font-family: "Poppins";
+    width: 100%;
+  }
+  .titulo {
+    box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.25);
+    width: 100%;
+  }
+  h1 {
+    padding: 20px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  /* CABEÇALHO */
+  .cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+  }
+  .filtersContainer {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  .filtersContainer button {
+    margin-right: 12px;
+  }
+  .containerBuscaPorNome {
+    display: flex;
+  }
+  .estiloGeralBotoes {
+    font-weight: 500;
+    border-radius: 8px;
+    padding: 14px 26px;
+    cursor: pointer;
+    font-size: 14px;
+    background-color: rgba(18, 184, 134, 0.05);
+    color: rgba(18, 184, 134, 1);
+    border: 1.5px solid rgba(18, 184, 134, 0.05);
+    font-family: "Poppins";
+    transition: 0.3s;
+  }
+  .estiloGeralBotoes:hover {
+    background-color: rgba(18, 184, 134, 1);
+    color: #ffffff;
+  }
+  .campoBuscaPorNome {
+    margin-right: 9px;
+    border-radius: 8px;
+    padding: 14px 100px 14px 20px;
+    border: none;
+    background-color: rgb(241, 243, 245);
+    color: rgba(81, 82, 82, 1);
+    font-size: 16px;
+  }
+  .estiloGeralBotoes--botaoBuscaPorNome {
+    display: flex;
+    padding: 14px;
+    background-color: rgba(18, 184, 134, 1);
+    color: #ffffff;
+    border-radius: 8px;
+  }
+
+  /* CONTEÚDO*/
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .containerListaProdutos {
+    width: 82%;
+    display: flex;
+  }
+
+  /* VITRINE DE PRODUTOS */
+  .vitrine {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    overflow: scroll;
+    overflow-y: hidden;
+    border-radius: 10px;
+  }
+  .cardProduto {
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 0px 17px 54px 0px;
+  }
+  .cardImg {
+    width: 274px;
+    height: 175px;
+  }
+  .cardTitulo {
+    color: #212529;
+    margin: 16px 0;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .cardCategoria {
+    font-size: 12px;
+    color: #868e96;
+    font-weight: 500;
+  }
+  .cardLista {
+    margin: 16px 12px;
+    font-size: 12px;
+    color: #868e96;
+    font-weight: 500;
+    list-style: decimal;
+    height: 65px;
+  }
+  .cardLi {
+    padding: 2px;
+  }
+  .divBotao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .divBotao p {
+    color: #212529;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  .botaoComprar {
+    color: #12b886;
+    background-color: rgba(18, 184, 134, 0.05);
+    padding: 8px;
+    border-radius: 8px;
+    border: 1.5px solid rgba(18, 184, 134, 0.05);
+    cursor: pointer;
+  }
+
+  /* CARRINHO LATERAL */
+  .menuLateral {
+    display: flex;
+    flex-direction: column;
+    width: 290px;
+    height: 374px;
+    margin-left: 10px;
+  }
+  .carrinhoTitulo {
+    display: flex;
+    background-color: #12b886;
+    color: #ffffff;
+    border-radius: 12px 12px 0 0;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+  }
+  .imgCarrinho {
+    padding: 20px;
+  }
+  .carrinhoTitulo p {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .containerC {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+    flex-direction: column;
+    overflow: scroll;
+    overflow-x: hidden;
+  }
+  .containerC::-webkit-scrollbar {
+    background-color: #ffffff;
+    border-radius: 10px;
+  }
+  .containerC::-webkit-scrollbar-thumb {
+    background-color: rgb(211, 214, 217);
+    border-radius: 10px;
+  }
+  .produtoCarrinho {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .divProduto {
+    display: flex;
+  }
+  .imgProduto {
+    width: 70px;
+    height: 70px;
+    border-radius: 8px;
+  }
+  .infoCarrinho {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 12px;
+  }
+  .tituloCarrinho {
+    color: #212529;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  .categoriaCarrinho {
+    color: #868e96;
+    font-weight: 400;
+    font-size: 12px;
+  }
+  .pValor {
+    color: #212529;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .botaoRemover {
+    height: 20px;
+    background-color: #ffffff;
+    border: none;
+    cursor: pointer;
+  }
+  .iconeBotao {
+    width: 12px;
+    height: 15px;
+  }
+
+  /* PREÇO TOTAL */
+  .containerQuantidade {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 59px;
+    background-color: #f8f9fa;
+  }
+  .divQuantidade,
+  .divTotal {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+  }
+  .containerPrecoTotal {
+    display: flex;
+    align-items: center;
+    width: 290px;
+    height: 59px;
+  }
+  .quantidade,
+  #quantidadeTotal,
+  .totalSoma,
+  #precoTotal {
+    font-size: 14px;
+    font-weight: 400;
+  }
+}
+
+@media (min-width: 971px) and (max-width: 1075px) {
+  body {
+    font-family: "Poppins";
+    width: 100%;
+    overflow: scroll;
+    overflow-x: hidden;
+  }
+  .titulo {
+    box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.25);
+    width: 100%;
+  }
+  h1 {
+    padding: 20px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  /* CABEÇALHO */
+  .cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    margin-top: 30px;
+  }
+  .filtersContainer {
+    display: flex;
+  }
+  .filtersContainer button {
+    margin-right: 12px;
+  }
+  .containerBuscaPorNome {
+    display: flex;
+  }
+  .estiloGeralBotoes {
+    font-weight: 500;
+    border-radius: 8px;
+    padding: 14px 26px;
+    cursor: pointer;
+    font-size: 14px;
+    background-color: rgba(18, 184, 134, 0.05);
+    color: rgba(18, 184, 134, 1);
+    border: 1.5px solid rgba(18, 184, 134, 0.05);
+    font-family: "Poppins";
+    transition: 0.3s;
+  }
+  .estiloGeralBotoes:hover {
+    background-color: rgba(18, 184, 134, 1);
+    color: #ffffff;
+  }
+  .campoBuscaPorNome {
+    margin-right: 9px;
+    border-radius: 8px;
+    padding: 14px 100px 14px 20px;
+    border: none;
+    background-color: rgb(241, 243, 245);
+    color: rgba(81, 82, 82, 1);
+    font-size: 16px;
+  }
+  .estiloGeralBotoes--botaoBuscaPorNome {
+    display: flex;
+    padding: 14px;
+    background-color: rgba(18, 184, 134, 1);
+    color: #ffffff;
+    border-radius: 8px;
+  }
+
+  /* CONTEÚDO*/
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .containerListaProdutos {
+    width: 82%;
+    display: flex;
+  }
+
+  /* VITRINE DE PRODUTOS */
+  .vitrine {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    overflow: scroll;
+    overflow-y: hidden;
+    border-radius: 10px;
+  }
+  .cardProduto {
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 0px 17px 54px 0px;
+  }
+  .cardImg {
+    width: 274px;
+    height: 175px;
+  }
+  .cardTitulo {
+    color: #212529;
+    margin: 16px 0;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .cardCategoria {
+    font-size: 12px;
+    color: #868e96;
+    font-weight: 500;
+  }
+  .cardLista {
+    margin: 16px 12px;
+    font-size: 12px;
+    color: #868e96;
+    font-weight: 500;
+    list-style: decimal;
+    height: 65px;
+  }
+  .cardLi {
+    padding: 2px;
+  }
+  .divBotao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .divBotao p {
+    color: #212529;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  .botaoComprar {
+    color: #12b886;
+    background-color: rgba(18, 184, 134, 0.05);
+    padding: 8px;
+    border-radius: 8px;
+    border: 1.5px solid rgba(18, 184, 134, 0.05);
+    cursor: pointer;
+  }
+
+  /* CARRINHO LATERAL */
+  .menuLateral {
+    display: flex;
+    flex-direction: column;
+    width: 290px;
+    height: 374px;
+    margin-left: 10px;
+  }
+  .carrinhoTitulo {
+    display: flex;
+    background-color: #12b886;
+    color: #ffffff;
+    border-radius: 12px 12px 0 0;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+  }
+  .imgCarrinho {
+    padding: 20px;
+  }
+  .carrinhoTitulo p {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .containerC {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+    flex-direction: column;
+    overflow: scroll;
+    overflow-x: hidden;
+  }
+  .containerC::-webkit-scrollbar {
+    background-color: #ffffff;
+    border-radius: 10px;
+  }
+  .containerC::-webkit-scrollbar-thumb {
+    background-color: rgb(211, 214, 217);
+    border-radius: 10px;
+  }
+  .produtoCarrinho {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .divProduto {
+    display: flex;
+  }
+  .imgProduto {
+    width: 70px;
+    height: 70px;
+    border-radius: 8px;
+  }
+  .infoCarrinho {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 12px;
+  }
+  .tituloCarrinho {
+    color: #212529;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  .categoriaCarrinho {
+    color: #868e96;
+    font-weight: 400;
+    font-size: 12px;
+  }
+  .pValor {
+    color: #212529;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .botaoRemover {
+    height: 20px;
+    background-color: #ffffff;
+    border: none;
+    cursor: pointer;
+  }
+  .iconeBotao {
+    width: 12px;
+    height: 15px;
+  }
+
+  /* PREÇO TOTAL */
+  .containerQuantidade {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 59px;
+    background-color: #f8f9fa;
+  }
+  .divQuantidade,
+  .divTotal {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+  }
+  .containerPrecoTotal {
+    display: flex;
+    align-items: center;
+    width: 290px;
+    height: 59px;
+  }
+  .quantidade,
+  #quantidadeTotal,
+  .totalSoma,
+  #precoTotal {
+    font-size: 14px;
+    font-weight: 400;
+  }
+}
+
+@media (min-width: 1075px) and (max-width: 2440px) {
+  body {
+    font-family: "Poppins";
+    width: 100%;
+    overflow: scroll;
+    overflow-x: hidden;
+  }
+  .titulo {
+    box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.25);
+    width: 100%;
+  }
+  h1 {
+    padding: 20px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  /* CABEÇALHO */
+  .cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    margin-top: 30px;
+  }
+  .filtersContainer {
+    display: flex;
+  }
+  .filtersContainer button {
+    margin-right: 12px;
+  }
+  .containerBuscaPorNome {
+    display: flex;
+  }
+  .estiloGeralBotoes {
+    font-weight: 500;
+    border-radius: 8px;
+    padding: 14px 26px;
+    cursor: pointer;
+    font-size: 14px;
+    background-color: rgba(18, 184, 134, 0.05);
+    color: rgba(18, 184, 134, 1);
+    border: 1.5px solid rgba(18, 184, 134, 0.05);
+    font-family: "Poppins";
+    transition: 0.3s;
+  }
+  .estiloGeralBotoes:hover {
+    background-color: rgba(18, 184, 134, 1);
+    color: #ffffff;
+  }
+  .campoBuscaPorNome {
+    margin-right: 9px;
+    border-radius: 8px;
+    padding: 14px 100px 14px 20px;
+    border: none;
+    background-color: rgb(241, 243, 245);
+    color: rgba(81, 82, 82, 1);
+    font-size: 16px;
+  }
+  .estiloGeralBotoes--botaoBuscaPorNome {
+    display: flex;
+    padding: 14px;
+    background-color: rgba(18, 184, 134, 1);
+    color: #ffffff;
+    border-radius: 8px;
+  }
+
+  /* CONTEÚDO*/
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .containerListaProdutos {
+    width: 82%;
+    display: flex;
+  }
+
+  /* VITRINE DE PRODUTOS */
+  .vitrine {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    border-radius: 10px;
+  }
+  .cardProduto {
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 0px 17px 54px 0px;
+  }
+  .cardImg {
+    width: 274px;
+    height: 175px;
+  }
+  .cardTitulo {
+    color: #212529;
+    margin: 16px 0;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .cardCategoria {
+    font-size: 12px;
+    color: #868e96;
+    font-weight: 500;
+  }
+  .cardLista {
+    margin: 16px 12px;
+    font-size: 12px;
+    color: #868e96;
+    font-weight: 500;
+    list-style: decimal;
+    height: 65px;
+  }
+  .cardLi {
+    padding: 2px;
+  }
+  .divBotao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .divBotao p {
+    color: #212529;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  .botaoComprar {
+    color: #12b886;
+    background-color: rgba(18, 184, 134, 0.05);
+    padding: 8px;
+    border-radius: 8px;
+    border: 1.5px solid rgba(18, 184, 134, 0.05);
+    cursor: pointer;
+  }
+
+  /* CARRINHO LATERAL */
+  .menuLateral {
+    display: flex;
+    flex-direction: column;
+    width: 290px;
+    height: 374px;
+    margin-left: 10px;
+  }
+  .carrinhoTitulo {
+    display: flex;
+    background-color: #12b886;
+    color: #ffffff;
+    border-radius: 12px 12px 0 0;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+  }
+  .imgCarrinho {
+    padding: 20px;
+  }
+  .carrinhoTitulo p {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .containerC {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+    flex-direction: column;
+    overflow: scroll;
+    overflow-x: hidden;
+  }
+  .containerC::-webkit-scrollbar {
+    background-color: #ffffff;
+    border-radius: 10px;
+  }
+  .containerC::-webkit-scrollbar-thumb {
+    background-color: rgb(211, 214, 217);
+    border-radius: 10px;
+  }
+  .produtoCarrinho {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .divProduto {
+    display: flex;
+  }
+  .imgProduto {
+    width: 70px;
+    height: 70px;
+    border-radius: 8px;
+  }
+  .infoCarrinho {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 12px;
+  }
+  .tituloCarrinho {
+    color: #212529;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  .categoriaCarrinho {
+    color: #868e96;
+    font-weight: 400;
+    font-size: 12px;
+  }
+  .pValor {
+    color: #212529;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .botaoRemover {
+    height: 20px;
+    background-color: #ffffff;
+    border: none;
+    cursor: pointer;
+  }
+  .iconeBotao {
+    width: 12px;
+    height: 15px;
+  }
+
+  /* PREÇO TOTAL */
+  .containerQuantidade {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 59px;
+    background-color: #f8f9fa;
+  }
+  .divQuantidade,
+  .divTotal {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+  }
+  .containerPrecoTotal {
+    display: flex;
+    align-items: center;
+    width: 290px;
+    height: 59px;
+  }
+  .quantidade,
+  #quantidadeTotal,
+  .totalSoma,
+  #precoTotal {
+    font-size: 14px;
+    font-weight: 400;
+  }
+}
